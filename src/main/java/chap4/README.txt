@@ -1,0 +1,3 @@
+方法prestartCoreThread() 和 prestartAllCoreThreads()
+方法prestartCoreThread()每调用一次就创建一个核心线程，返回值为oolean,含义是是否启动了
+方法prestartAllCoreThreads()的作用是启动全部核心线程，返回值是启动核心线程的数量
