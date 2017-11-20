@@ -1,0 +1,6 @@
+接口Future的实现类是FutureTask.java,而且在使用线程池时，默认情况下也是使用FutureTask.java类做为接口Future的实现类
+也就是说，如果在使用Future与Callable的情况下，使用Future接口也就是在使用FutureTask.java类
+callable接口与Runnable接口在对比时主要的优点是：Callable接口可以通过Future取得返回值
+但需要注意的是，Future接口调用get()方法时，任务尚未执行完成，则调用get()方法时一直阻塞到此任务完成时为止
+如果是这样的效果，则前面先执行的任务一定耗时很多，则后面的任务调用get9)方法就呈阻塞状态，也就是排队进行等待，大大影响运行效率,
+也就是主线程并不能保证首先获得的是最先完成任务的返回值，这就是Futurede 缺点
