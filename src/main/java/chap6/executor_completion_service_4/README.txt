@@ -1,0 +1,2 @@
+方法Future<V> poll(long timeout,TimeUnit unit)的作用是等待指定的timeout时间，在timeout时间内获取到值时立即继续向下执行
+如果超时也立即向下执行
