@@ -1,0 +1,4 @@
+计划任务ScheduledExecutorService的使用
+
+ScheduledExecutorService类的主要作用就是可以将定时任务与线程池功能结合使用
+有一个主要的实现类ScheduledThreadPoolExecutor

@@ -1,0 +1,2 @@
+方法cancel(boolean)的作用设定是否取消任务
+方法setRemoveOnCancelPolicy(boolean)的作用设定是否将取消后的任务从队列中清除

@@ -1,0 +1,3 @@
+方法setContinueExistingPeriodicTasksAfterShutdownPolicy(true)的作用是当使用scheduleAtFixedRate()方法或scheduleWithFixedDelay()方法时，　
+如果对ScheduledThreadPolExecutor执行了shutdown()方法,任务还会继续运行
+ 当使用setContinueExistingPeriodicTasksAfterShutdownPolicy(false)时不在运行

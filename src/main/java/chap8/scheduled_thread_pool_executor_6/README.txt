@@ -1,0 +1,2 @@
+getQueue()的作用是取得队列中的任务，而这些任务是未来将要运行的，正在运行的任务不在此队列中
+使用scheduleAtFixedRate()和scheduleWithFixedDelay()两个方法实现周期性执行任务时，未来欲执行的任务都是放入此队列中

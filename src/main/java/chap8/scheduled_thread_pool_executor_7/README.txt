@@ -1,0 +1,2 @@
+方法setExecuteExistingDelayedTasksAfterShutdownPolicy()的作用是当对ScheduledThreadPolExecutor执行了shutdown()方法时
+任务是否继续运行，默认值是true,当使用setExecuterExistingDelayedTasksAfterShutdownPolicy(false)时不在运行
