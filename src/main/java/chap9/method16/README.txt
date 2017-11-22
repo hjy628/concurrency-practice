@@ -1,0 +1,10 @@
+ForkJoinPool类提供了若干个方法来监视任务池的状态:
+方法getParallelism():获得并行的数量，与CPU和核数有关
+方法getPoolSize():获得任务池的大小
+方法getQueuedSubmissionCount():取得已经提交但尚未被执行的任务数量
+方法hasQueuedSubissions():判断队列中是否有未执行的任务
+方法getActiveThreadCount():获得活动的线程个数
+方法getQueuedTaskCount():获得任务的总个数
+方法getStealCount():获得偷窃的任务个数
+方法getRunningThreadCount():获得正在运行并且不在阻塞状态下的线程个数
+方法isQuiescent():判断任务池是否是静止未执行任务的状态

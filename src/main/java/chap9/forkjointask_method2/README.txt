@@ -1,0 +1,3 @@
+方法isCompletedAbnormally()判断任务是否出现异常
+方法isCompletedNormally()判断任务是否正常执行完毕
+方法getException()返回报错异常
