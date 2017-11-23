@@ -1,0 +1,1 @@
+方法boolean hasWaitingConsumer()的作用是判断有没有消费者在等待数据，方法int getWaitingConsumerCount()的作用是取得有多少个消费者在等待数据

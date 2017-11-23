@@ -1,0 +1,2 @@
+ConcurrentLinkedQueue类仅支持对列头进行操作,而ConcurrentLinkedDeque支持对队列头尾双向操作
+

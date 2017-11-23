@@ -1,0 +1,2 @@
+HashTable和ConcurrentHashMap都支持在并发操作
+它们之间差异：主要差异就是HashTable不支持在循环中remove()元素

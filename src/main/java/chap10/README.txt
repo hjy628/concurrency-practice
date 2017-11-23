@@ -1,0 +1,10 @@
+非阻塞队列:
+    非阻塞队列的特色就是队列里面没有数据时，操作队列出现异常或返回null,不具有等待/阻塞的特色
+常见的非阻塞队列有：
+    ConcurrentHashMap
+    ConcurrentSkipListMap
+    ConcurrentSkipListSet
+    ConcurrentLinkedQueue
+    ConcurrentLinkedDeque
+    CopyOnWriteArrayList
+    CopyOnWriteArraySet
